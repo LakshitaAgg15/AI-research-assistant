@@ -345,7 +345,7 @@ def main():
         # Model info card
         st.markdown("""
         <div class="info-card">
-            <strong>🤖 Model:</strong> Llama 3.3 70B via Groq<br>
+            <strong>🤖 Model:</strong> GPT-OSS 120B (openai/gpt-oss-120b), served through Groq<br>
             <strong>🗄️ Vector DB:</strong> ChromaDB<br>
             <strong>🔗 Framework:</strong> LangGraph
         </div>
