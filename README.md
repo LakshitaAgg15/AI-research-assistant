@@ -309,5 +309,4 @@ Contributions are welcome! Feel free to:
 
 ## 📬 Contact
 
-Have questions or suggestions? Open an issue on the [GitHub repository](https://github.com/manviisinha/AI-Research-Assistant/issues).#   A I - r e s e a r c h - a s s i s t a n t  
- 
+Have questions or suggestions? Open an issue on the [GitHub repository](https://github.com/manviisinha/AI-Research-Assistant/issues).
