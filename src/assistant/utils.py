@@ -79,7 +79,10 @@ def invoke_groq(
     )
 
     if output_format:
-        llm = llm.with_structured_output(output_format)
+        llm = llm.with_structured_output(
+        output_format,
+        method="json_mode"
+)
 
     messages = [
         {"role": "system", "content": system_prompt},

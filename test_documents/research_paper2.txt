@@ -1,0 +1,7 @@
+Title: Challenges and Limitations of AI in Healthcare
+
+AI adoption in healthcare faces several challenges. Medical datasets may contain bias, resulting in unequal performance across 
+patient groups. Patient privacy is another major concern because healthcare records contain sensitive information. Deep learning models 
+can be difficult to interpret, making it challenging for doctors to understand their predictions. AI systems also require large amounts 
+of high-quality training data. Incorrect predictions can create serious risks. Therefore, human supervision, transparency, validation, and 
+regulatory compliance are essential.

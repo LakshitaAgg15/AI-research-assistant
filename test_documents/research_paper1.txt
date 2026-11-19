@@ -1,0 +1,7 @@
+Title: Applications of Artificial Intelligence in Healthcare
+
+Artificial Intelligence is increasingly being used in healthcare to improve diagnosis, treatment planning, and patient monitoring. 
+Machine learning models can analyze medical images such as X-rays and MRI scans to identify abnormalities. Natural Language Processing 
+helps extract useful information from electronic health records. Predictive analytics can identify patients who are at risk of developing
+ chronic diseases. AI-assisted systems can also help doctors prioritize urgent cases. However, AI should support rather than completely 
+replace medical professionals.

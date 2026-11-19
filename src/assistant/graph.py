@@ -25,7 +25,7 @@ def generate_research_queries(state: ResearcherState, config: RunnableConfig):
     
     # Using Groq API (fast, free tier available)
     result = invoke_groq(
-        model='llama-3.3-70b-versatile',
+        model='openai/gpt-oss-120b',
         system_prompt=query_writer_prompt,
         user_prompt=f"Generate research queries for this user instruction: {user_instructions}",
         output_format=Queries
@@ -102,7 +102,7 @@ def evaluate_retrieved_documents(state: QuerySearchState):
     
     # Using Groq API (fast, free tier available)
     evaluation = invoke_groq(
-        model='llama-3.3-70b-versatile',
+        model='openai/gpt-oss-120b',
         system_prompt=evaluation_prompt,
         user_prompt=f"Evaluate the relevance of the retrieved documents for this query: {query}",
         output_format=Evaluation
@@ -155,7 +155,7 @@ def summarize_query_research(state: QuerySearchState):
     
     # Using Groq API (fast, free tier available)
     summary = invoke_groq(
-        model='llama-3.3-70b-versatile',
+        model='openai/gpt-oss-120b',
         system_prompt=summary_prompt,
         user_prompt=f"Generate a research summary for this query: {query}"
     )
@@ -183,7 +183,7 @@ def generate_final_answer(state: ResearcherState, config: RunnableConfig):
 
     # Using Groq API (fast, free tier available)
     result = invoke_groq(
-        model='llama-3.3-70b-versatile',
+        model='openai/gpt-oss-120b',
         system_prompt=answer_prompt,
         user_prompt=f"Generate a research summary using the provided information."
     )
